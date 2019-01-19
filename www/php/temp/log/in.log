@@ -1,0 +1,207 @@
+Input File: C:\Users\pixel\Documents\git\Writeboard-Online\www/php/temp/in.svg
+Output File: C:\Users\pixel\Documents\git\Writeboard-Online\www/php/temp/gcode_output/in.gcode
+Log File: C:\Users\pixel\Documents\git\Writeboard-Online\www/php/temp/log/in.log
+
+wdth: 48
+hght: 48
+scale: 1
+x%: 3.125
+y%: 3.125
+--Found Elem: <Element '{http://www.w3.org/2000/svg}svg' at 0x18a1050>
+  --No Name: svg
+--Found Elem: <Element '{http://www.w3.org/2000/svg}defs' at 0x18a1230>
+  --No Name: defs
+--Found Elem: <Element '{http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd}namedview' at 0x18a12b0>
+  --No Name: namedview
+--Found Elem: <Element '{http://www.w3.org/2000/svg}g' at 0x18a1470>
+  --No Name: g
+--Found Elem: <Element '{http://www.w3.org/2000/svg}path' at 0x18a1510>
+  --Name: path
+	Class : <class 'lib.shapes.path'>
+	Object: <Element '{http://www.w3.org/2000/svg}path' at 0x18a1510>
+	Attrs : [('style', 'fill:#fafafa;fill-opacity:1'), ('{http://www.inkscape.org/namespaces/inkscape}connector-curvature', '0'), ('id', 'path2989'), ('d', 'm24.04 0.14285c-1.376 0-2.7263 0.12375-4.0386 0.34741l-0.64 6.7853c-1.3572 0.37831-2.6417 0.90728-3.8432 1.585l-5.244-4.3317c-2.2152 1.5679-4.1541 3.4955-5.7217 5.7101l4.3426 5.2437c-0.67695 1.2001-1.2177 2.4878-1.5959 3.8432l-6.7745 0.64053c-0.22379 1.3127-0.34741 2.6622-0.34741 4.0386 0 1.3788 0.12285 2.7238 0.34741 4.0386l6.7745 0.64056c0.37825 1.3554 0.91896 2.6431 1.5959 3.8432l-4.3317 5.2437c1.5648 2.2089 3.4908 4.1457 5.6997 5.7105l5.2545-4.3426c1.2023 0.67835 2.485 1.2174 3.8432 1.5959l0.64053 6.7853c1.3123 0.22368 2.6626 0.33658 4.0386 0.33658s2.7155-0.11289 4.0278-0.33658l0.64053-6.7853c1.3582-0.37847 2.6409-0.91755 3.8432-1.5959l5.2545 4.3426c2.2088-1.5649 4.1348-3.5017 5.6997-5.7105l-4.3317-5.2437c0.67695-1.2001 1.2177-2.4878 1.5959-3.8432l6.7744-0.64056c0.22456-1.3148 0.34741-2.6598 0.34741-4.0386 0-1.3765-0.12361-2.726-0.34741-4.0386l-6.7744-0.64053c-0.37825-1.3554-0.91896-2.6431-1.5959-3.8432l4.3426-5.2437c-1.568-2.2146-3.507-4.1422-5.722-5.7101l-5.2437 4.3317c-1.2015-0.67776-2.486-1.2067-3.8432-1.585l-0.641-6.7853c-1.3123-0.22366-2.6518-0.34741-4.0278-0.34741zm0 14.776c5.0178 0 9.076 4.0691 9.076 9.0869s-4.0582 9.0869-9.076 9.0869-9.0869-4.0691-9.0869-9.0869 4.0691-9.0869 9.0869-9.0869z')]
+	Transform: None
+	d: m24.04 0.14285c-1.376 0-2.7263 0.12375-4.0386 0.34741l-0.64 6.7853c-1.3572 0.37831-2.6417 0.90728-3.8432 1.585l-5.244-4.3317c-2.2152 1.5679-4.1541 3.4955-5.7217 5.7101l4.3426 5.2437c-0.67695 1.2001-1.2177 2.4878-1.5959 3.8432l-6.7745 0.64053c-0.22379 1.3127-0.34741 2.6622-0.34741 4.0386 0 1.3788 0.12285 2.7238 0.34741 4.0386l6.7745 0.64056c0.37825 1.3554 0.91896 2.6431 1.5959 3.8432l-4.3317 5.2437c1.5648 2.2089 3.4908 4.1457 5.6997 5.7105l5.2545-4.3426c1.2023 0.67835 2.485 1.2174 3.8432 1.5959l0.64053 6.7853c1.3123 0.22368 2.6626 0.33658 4.0386 0.33658s2.7155-0.11289 4.0278-0.33658l0.64053-6.7853c1.3582-0.37847 2.6409-0.91755 3.8432-1.5959l5.2545 4.3426c2.2088-1.5649 4.1348-3.5017 5.6997-5.7105l-4.3317-5.2437c0.67695-1.2001 1.2177-2.4878 1.5959-3.8432l6.7744-0.64056c0.22456-1.3148 0.34741-2.6598 0.34741-4.0386 0-1.3765-0.12361-2.726-0.34741-4.0386l-6.7744-0.64053c-0.37825-1.3554-0.91896-2.6431-1.5959-3.8432l4.3426-5.2437c-1.568-2.2146-3.507-4.1422-5.722-5.7101l-5.2437 4.3317c-1.2015-0.67776-2.486-1.2067-3.8432-1.585l-0.641-6.7853c-1.3123-0.22366-2.6518-0.34741-4.0278-0.34741zm0 14.776c5.0178 0 9.076 4.0691 9.076 9.0869s-4.0582 9.0869-9.076 9.0869-9.0869-4.0691-9.0869-9.0869 4.0691-9.0869 9.0869-9.0869z
+	m: None
+	d is GOOD!
+	Points: <generator object point_generator at 0x018A0620>
+	  pt: (24.04, 149.85715)
+	    --Point printed
+	  pt: (22.663999999999998, 149.85715)
+	    --Point printed
+	  pt: (20.0014, 149.50974)
+	    --Point printed
+	  pt: (18.0042, 142.34613)
+	    --Point printed
+	  pt: (15.5182, 141.13944)
+	    --Point printed
+	  pt: (9.1666, 144.68719)
+	    --Point printed
+	  pt: (6.212925, 141.90389)
+	    --Point printed
+	  pt: (4.5525, 139.76104)
+	    --Point printed
+	  pt: (8.21815, 133.31724)
+	    --Point printed
+	  pt: (7.299199999999999, 130.67414)
+	    --Point printed
+	  pt: (0.3009099999999993, 128.72091)
+	    --Point printed
+	  pt: (0.17728999999999928, 124.61621)
+	    --Point printed
+	  pt: (0.5246999999999993, 121.95641)
+	    --Point printed
+	  pt: (7.6774499999999986, 119.96045000000001)
+	    --Point printed
+	  pt: (8.8951, 117.47265)
+	    --Point printed
+	  pt: (5.3458, 111.12450000000001)
+	    --Point printed
+	  pt: (8.124925, 108.17625000000001)
+	    --Point printed
+	  pt: (10.2631, 106.51845)
+	    --Point printed
+	  pt: (16.7199, 110.1827)
+	    --Point printed
+	  pt: (19.3608, 109.26515)
+	    --Point printed
+	  pt: (21.313630000000003, 102.25617)
+	    --Point printed
+	  pt: (25.41593, 102.14327)
+	    --Point printed
+	  pt: (28.06773, 102.47985)
+	    --Point printed
+	  pt: (30.066460000000003, 109.64362)
+	    --Point printed
+	  pt: (32.551460000000006, 110.86105)
+	    --Point printed
+	  pt: (38.91036000000001, 107.3009)
+	    --Point printed
+	  pt: (41.850485000000006, 110.08815)
+	    --Point printed
+	  pt: (43.505660000000006, 112.22895)
+	    --Point printed
+	  pt: (39.850910000000006, 118.67275)
+	    --Point printed
+	  pt: (40.76986000000001, 121.31585)
+	    --Point printed
+	  pt: (47.768820000000005, 123.27121)
+	    --Point printed
+	  pt: (47.891670000000005, 127.37151)
+	    --Point printed
+	  pt: (47.54426000000001, 130.03360999999998)
+	    --Point printed
+	  pt: (40.39161000000001, 132.02954)
+	    --Point printed
+	  pt: (39.17396000000001, 134.51734)
+	    --Point printed
+	  pt: (42.73256000000001, 140.86834)
+	    --Point printed
+	  pt: (39.940560000000005, 143.813315)
+	    --Point printed
+	  pt: (37.794560000000004, 145.47114)
+	    --Point printed
+	  pt: (31.349360000000008, 141.81719999999999)
+	    --Point printed
+	  pt: (28.707660000000008, 142.72444)
+	    --Point printed
+	  pt: (26.754360000000005, 149.7334)
+	    --Point printed
+	  pt: (24.038860000000007, 149.85715)
+	    --Point printed
+	  pt: (24.04, 149.85715)
+	    --Point printed
+	  pt: (24.667225, 135.08115)
+	    --Point printed
+	  pt: (26.46182734375, 134.775440625)
+	    --Point printed
+	  pt: (28.1180515625, 134.137009375)
+	    --Point printed
+	  pt: (29.5995859375, 133.2024234375)
+	    --Point printed
+	  pt: (30.870118750000003, 132.00825)
+	    --Point printed
+	  pt: (31.89333828125, 130.59105625)
+	    --Point printed
+	  pt: (32.6329328125, 128.987409375)
+	    --Point printed
+	  pt: (33.052590625, 127.2338765625)
+	    --Point printed
+	  pt: (33.116, 125.367025)
+	    --Point printed
+	  pt: (32.81105703125, 123.57165625)
+	    --Point printed
+	  pt: (32.1740734375, 121.913984375)
+	    --Point printed
+	  pt: (31.2413609375, 120.4305765625)
+	    --Point printed
+	  pt: (30.04923125, 119.158)
+	    --Point printed
+	  pt: (28.63399609375, 118.13282187499999)
+	    --Point printed
+	  pt: (27.0319671875, 117.391609375)
+	    --Point printed
+	  pt: (25.279456249999996, 116.9709296875)
+	    --Point printed
+	  pt: (23.412775, 116.90735000000001)
+	    --Point printed
+	  pt: (21.617406250000002, 117.213059375)
+	    --Point printed
+	  pt: (19.959734375, 117.851490625)
+	    --Point printed
+	  pt: (18.4763265625, 118.7860765625)
+	    --Point printed
+	  pt: (17.20375, 119.98025)
+	    --Point printed
+	  pt: (16.178571874999996, 121.39744375000001)
+	    --Point printed
+	  pt: (15.437359375, 123.001090625)
+	    --Point printed
+	  pt: (15.016679687499998, 124.7546234375)
+	    --Point printed
+	  pt: (14.9531, 126.621475)
+	    --Point printed
+	  pt: (15.258809374999998, 128.41684375)
+	    --Point printed
+	  pt: (15.897240624999998, 130.074515625)
+	    --Point printed
+	  pt: (16.831826562499998, 131.5579234375)
+	    --Point printed
+	  pt: (18.025999999999996, 132.8305)
+	    --Point printed
+	  pt: (19.44319375, 133.855678125)
+	    --Point printed
+	  pt: (21.046840625, 134.59689062500001)
+	    --Point printed
+	  pt: (22.8003734375, 135.0175703125)
+	    --Point printed
+	  pt: (24.04, 135.08115)
+	    --Point printed
+	  pt: (24.04, 135.08115)
+	    --Point printed
+--Found Elem: <Element '{http://www.w3.org/2000/svg}metadata' at 0x18a1570>
+  --No Name: metadata
+--Found Elem: <Element '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF' at 0x18a15d0>
+  --No Name: RDF
+--Found Elem: <Element '{http://creativecommons.org/ns#}Work' at 0x18a1610>
+  --No Name: Work
+--Found Elem: <Element '{http://purl.org/dc/elements/1.1/}format' at 0x18a1650>
+  --No Name: format
+--Found Elem: <Element '{http://purl.org/dc/elements/1.1/}type' at 0x18a1690>
+  --No Name: type
+--Found Elem: <Element '{http://creativecommons.org/ns#}license' at 0x18a16d0>
+  --No Name: license
+--Found Elem: <Element '{http://purl.org/dc/elements/1.1/}publisher' at 0x18a1710>
+  --No Name: publisher
+--Found Elem: <Element '{http://creativecommons.org/ns#}Agent' at 0x18a1750>
+  --No Name: Agent
+--Found Elem: <Element '{http://purl.org/dc/elements/1.1/}title' at 0x18a1770>
+  --No Name: title
+--Found Elem: <Element '{http://creativecommons.org/ns#}License' at 0x18a1830>
+  --No Name: License
+--Found Elem: <Element '{http://creativecommons.org/ns#}permits' at 0x18a1870>
+  --No Name: permits
+--Found Elem: <Element '{http://creativecommons.org/ns#}permits' at 0x18a18b0>
+  --No Name: permits
+--Found Elem: <Element '{http://creativecommons.org/ns#}permits' at 0x18a18f0>
+  --No Name: permits

@@ -1,0 +1,2 @@
+"permanently borrowed" from https://github.com/pjpscriv/py-svg2gcode
+with changes to actually make it work
