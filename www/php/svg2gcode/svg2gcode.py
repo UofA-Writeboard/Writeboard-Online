@@ -203,5 +203,6 @@ def test(filename):
 if __name__ == "__main__":
     ''' If this file is called by itself in the command line
         then this will execute.'''
+    sys.setrecursionlimit(9999)
     generate_gcode(sys.argv[1])
     

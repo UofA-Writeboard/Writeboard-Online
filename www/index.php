@@ -109,7 +109,7 @@
 	<body>
 		<div class="flex-padding"></div>
 		<img id="banner" class="noselect" src="/img/logo_ds_300.png" />
-		<form class="invisiform" method="POST" action="/svg.php">
+		<form class="invisiform" enctype="multipart/form-data" method="POST" action="/svg.php">
 			<input class="field button" name="userfile" type="file" />
 			<input class="field button" type="submit" value="Plot SVG" />
 		</form>
