@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="sample.svg"
+   inkscape:export-filename="C:\Users\pixel\Documents\git\Writeboard-Online\design\bitmap.png"
+   inkscape:export-xdpi="299.96188"
+   inkscape:export-ydpi="299.96188">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="216.38065"
+     inkscape:cy="414.23805"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2035"
+     inkscape:window-x="-13"
+     inkscape:window-y="-13"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#2ab6b1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 36.348656,87.193421 c 52.919365,-32.874154 40.357697,0.534537 71.360964,15.234359 31.00326,14.69983 53.4539,-21.11429 53.4539,-21.11429"
+       id="path815"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#2ab6b1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 46.237628,100.02236 c 34.477769,63.61014 42.228584,70.29188 87.129862,61.47199"
+       id="path817"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#2ab6b1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 175.06154,110.98041 c -26.99422,26.45968 -82.319016,12.2944 -82.319016,12.2944"
+       id="path819"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#57c963;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="M 79.37905,196.50666 47.039437,219.7591 77.508163,264.12584 130.42753,237.13162 Z"
+       id="path821"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:1;fill:#e085dd;fill-opacity:1;stroke:#2ab6b1;stroke-width:18.89763804;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 650.53906 650.7793 A 100.00509 87.378196 0 0 0 550.5332 738.15625 A 100.00509 87.378196 0 0 0 650.53906 825.53516 A 100.00509 87.378196 0 0 0 750.54297 738.15625 A 100.00509 87.378196 0 0 0 650.53906 650.7793 z M 652.05273 713.4082 A 34.850262 27.779196 0 0 1 686.9043 741.1875 A 34.850262 27.779196 0 0 1 652.05273 768.9668 A 34.850262 27.779196 0 0 1 617.20312 741.1875 A 34.850262 27.779196 0 0 1 652.05273 713.4082 z "
+       transform="scale(0.26458333)"
+       id="path823" />
+  </g>
+</svg>

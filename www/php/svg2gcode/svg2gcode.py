@@ -4,6 +4,7 @@
 import os
 import sys
 import xml.etree.ElementTree as ET
+import re
 
 # Local Imports
 import lib.shapes as shapes_pkg
@@ -63,7 +64,10 @@ def generate_gcode(filename):
     if width == None or height == None:
         viewbox = root.get('viewBox')
         if viewbox:
-            _, _, width, height = viewbox.split()                
+            _, _, width, height = viewbox.split()
+    else:
+        width = int(re.search(r'\d+', width).group())
+        height = int(re.search(r'\d+', height).group())
 
     if width == None or height == None:
         # raise ValueError("Unable to get width or height for the svg")
@@ -92,7 +96,7 @@ def generate_gcode(filename):
     gcode = ""
 
     # Write Initial G-Codes
-    gcode += preamble + "\n"
+    #gcode += preamble + "\n"
     
     # Iterate through svg elements
     for elem in root.iter():
@@ -136,7 +140,7 @@ def generate_gcode(filename):
             if d:
                 log += debug_log("\td is GOOD!")
 
-                gcode += shape_preamble + "\n"
+                #gcode += shape_preamble + "\n"
                 points = point_generator(d, m, smoothness)
 
                 log += debug_log("\tPoints: "+str(points))
@@ -152,21 +156,20 @@ def generate_gcode(filename):
 
                     if x >= 0 and x <= bed_max_x and y >= 0 and y <= bed_max_y:
                         if new_shape:
-                            gcode += ("G0 X%0.1f Y%0.1f\n" % (x, y))
-                            gcode += "M03\n"
+                            gcode += ("G00 X%0.1f Y%0.1f\n" % (x, y))
                             new_shape = False
                         else:
-                            gcode += ("G0 X%0.1f Y%0.1f\n" % (x, y))
+                            gcode += ("G01 X%0.1f Y%0.1f\n" % (x, y))
                         log += debug_log("\t    --Point printed")
                     else:
                         log += debug_log("\t    --POINT NOT PRINTED ("+str(bed_max_x)+","+str(bed_max_y)+")")
-                gcode += shape_postamble + "\n"
+                #gcode += shape_postamble + "\n"
             else:
               log += debug_log("\tNO PATH INSTRUCTIONS FOUND!!")
         else:
           log += debug_log("  --No Name: "+tag_suffix)
 
-    gcode += postamble + "\n"
+    #gcode += postamble + "\n"
 
     # Write the Result
     ofile = open(outfile, 'w+')
