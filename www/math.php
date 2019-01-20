@@ -12,6 +12,7 @@ if (!(
 	))
 {
 	header('Location: /');
+	exit();
 }
 
 $math = $_POST['math'];
@@ -21,6 +22,7 @@ $xmax = floatval($_POST['xmax']);
 if ($xmax < $xmin)
 {
 	header('Location: /');
+	exit();
 }
 
 
@@ -28,7 +30,7 @@ $bed_max_x = 300;
 $bed_min_x = -300;
 $bed_max_y = 800;
 $bed_min_y = 300;
-$step_count = 250;
+$step_count = 500;
 
 
 use MathParser\StdMathParser;
@@ -63,6 +65,7 @@ for ($iter = 0; $iter <= $step_count; $iter++)
 	$evaluator->setVariables(['x'=>$x]);
 	$y = $AST->accept($evaluator);
 	$values[$iter] = $y;
+	//echo($y+"<br/>\n");
 	
 	if ($y < $min_y)
 	{
@@ -96,6 +99,7 @@ for ($iter = 0; $iter <= $step_count; $iter++)
 }
 
 \Writeboard\post_gcode($gcode);
+header('Location: /');
 //echo($gcode);
 
 ?>

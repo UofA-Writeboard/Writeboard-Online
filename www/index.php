@@ -116,15 +116,15 @@
 		<form class="invisiform" method="POST" action="/math.php">
 			<div class="field text">
 				<span>y(x)=</span>
-				<input name="math" type="text" value="3x+4" />
+				<input name="math" type="text" value="e^x+0.333*sin(30*x)" />
 			</div>
 			<div class="field text">
 				<span>min. x</span>
-				<input name="xmin" type="number" value="1" />
+				<input name="xmin" type="text" value="-1.5" />
 			</div>
 			<div class="field text">
 				<span>max. x</span>
-				<input name="xmax" type="number" value="4" />
+				<input name="xmax" type="text" value="1.5" />
 			</div>
 			<input class="field button" type="submit" value="Plot Graph" />
 		</form>
