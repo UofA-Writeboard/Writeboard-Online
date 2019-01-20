@@ -79,11 +79,9 @@ def generate_gcode(filename):
     # ASSUMES: Y ASIX IS LONG AXIS
     #          X AXIS IS SHORT AXIS
     # i.e. laser cutter is in "portrait"
-    scale_x = bed_max_x / float(width)
-    scale_y = bed_max_y / float(height)
+    scale_x = (bed_max_x - bed_min_x) / float(width)
+    scale_y = (bed_max_y - bed_min_y) / float(height)
     scale = min(scale_x, scale_y)
-    if scale > 1:
-        scale = 1
 
 
     log += debug_log("wdth: "+str(width))
@@ -150,19 +148,19 @@ def generate_gcode(filename):
                     #log += debug_log("\t  pt: "+str((x,y)))
 
                     x = scale*x
-                    y = bed_max_y - scale*y
+                    y = scale*y
 
-                    log += debug_log("\t  pt: "+str((x,y)))
+                    log += debug_log("\t  pt: "+str((x + bed_min_x, y + bed_min_y)))
 
-                    if x >= 0 and x <= bed_max_x and y >= 0 and y <= bed_max_y:
+                    if x >= 0 and x <= (bed_max_x - bed_min_x) and y >= 0 and y <= (bed_max_y - bed_min_y):
                         if new_shape:
-                            gcode += ("G00 X%0.1f Y%0.1f\n" % (x, y))
+                            gcode += ("G00 X%0.1f Y%0.1f\n" % (x + bed_min_x, y + bed_min_y))
                             new_shape = False
                         else:
-                            gcode += ("G01 X%0.1f Y%0.1f\n" % (x, y))
+                            gcode += ("G01 X%0.1f Y%0.1f\n" % (x + bed_min_x, y + bed_min_y))
                         log += debug_log("\t    --Point printed")
                     else:
-                        log += debug_log("\t    --POINT NOT PRINTED ("+str(bed_max_x)+","+str(bed_max_y)+")")
+                        log += debug_log("\t    --POINT NOT PRINTED ("+str((bed_max_x - bed_min_x))+","+str((bed_max_y - bed_min_y))+")")
                 #gcode += shape_postamble + "\n"
             else:
               log += debug_log("\tNO PATH INSTRUCTIONS FOUND!!")

@@ -1,3 +1,5 @@
 www/php/aws/
 www/php/creds.json
 www/php/temp/
+www/php/vendor/
+pytest/creds.json

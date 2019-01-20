@@ -1,25 +1,19 @@
 import boto3
+import os
+import json
 
 # Get the queue. This returns an SQS.Queue instance
+creds = {}
+with open(os.path.dirname(os.path.realpath(__file__))+"/creds.json") as f:
+	creds = json.load(f)
+
+session = boto3.Session(aws_access_key_id=creds['key'], aws_secret_access_key=creds['secret'])
 sqs = boto3.resource('sqs')
 queue = sqs.get_queue_by_name(QueueName='WriteboardTest')
 
-
-# You can now access identifiers and attributes
-print(queue.url)
-print(queue.attributes.get('DelaySeconds'))
-
-# Process messages by printing out body and optional author name
-for message in queue.receive_messages(MessageAttributeNames=['Author']):
-    # Get the custom author message attribute if it was set
-    author_text = ''
-    if message.message_attributes is not None:
-        author_name = message.message_attributes.get('Author').get('StringValue')
-        if author_name:
-            author_text = ' ({0})'.format(author_name)
-
-    # Print out the body and author (if set)
-    print('Hello, {0}!{1}'.format(message.body, author_text))
+# Process messages by printing out body
+for message in queue.receive_messages():
+    print('{0}'.format(message.body))
 
     # Let the queue know that the message is processed
     message.delete()

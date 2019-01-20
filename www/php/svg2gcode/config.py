@@ -20,10 +20,12 @@ shape_postamble = "G4 P0.2\nM05"
 # Printer Cutting Area: ~178mm x ~344mm
 # Testing Area:          150mm x 150mm  (for now)
 '''Print bed width in mm'''
-bed_max_x = 150 
+bed_max_x = 300
+bed_min_x = -300 
 
 '''Print bed height in mm'''
-bed_max_y = 150
+bed_max_y = 800
+bed_min_y = 300
 
 ''' Used to control the smoothness/sharpness of the curves.
     Smaller the value greater the sharpness. Make sure the

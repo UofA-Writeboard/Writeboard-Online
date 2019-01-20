@@ -3,7 +3,7 @@
 
 namespace Writeboard;
 
-require_once(__DIR__.'/aws/aws-autoloader.php');
+require_once(__DIR__.'/vendor/autoload.php');
 
 
 function post_gcode($gcode)

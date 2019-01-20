@@ -1,1 +1,0 @@
-aws php sdk should go in folder called "aws" here such that ./aws/aws-autoloader.php is valid path
